@@ -19,8 +19,8 @@ int substring(char *s, char *sub)
 }
 int main()
 {
-    char s[100]=("Aula de estrutras de dados e programacao");
+    char s[100]=("Aula de estruturas de dados e programacao");
     char sub[10]=("strut");
-    printf("%d", substring(s, sub));
+    printf("%d\n", substring(s, sub));
     return 0;
 }
